@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.princ-nba {
+  display: flex;
+  width: 50vw;
+}
+
+.nbalogo {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  flex: 0.5;
+  position: relative;
+  margin: 10px;
+  transition: flex 0.9s ease-in;
+}
+
+.nbalogo h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.nbalogo.active {
+  flex: 3;
+  transition: opacity 0.3s ease-in 0.5s;
+}
+
+.nbalogo.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}

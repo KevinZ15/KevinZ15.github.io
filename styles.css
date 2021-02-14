@@ -2,48 +2,69 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+h1 {
+  font-family: "Ballet", cursive;
 }
 
-.princ-nba {
-  display: flex;
-  width: 50vw;
+h2 {
+  font-family: "Ballet", cursive;
 }
 
-.nbalogo {
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 30vh;
-  border-radius: 5px;
+.title {
+  border: 2px solid green;
   color: black;
-  cursor: pointer;
-  flex: 0.5;
+  font-size: 70px;
   position: relative;
-  margin: 10px;
+  text-align: center;
+  top: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #faebd7;
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.princ-raza {
+  display: flex;
+}
+
+.razalogo {
+  cursor: pointer;
+  flex: 1.1;
+  height: 30vh;
+  position: relative;
   transition: flex 0.9s ease-in;
 }
 
-.nbalogo h3 {
-  font-size: 24px;
-  position: absolute;
-  bottom: 20px;
-  margin: 0;
-  opacity: 0;
-}
-
-.nbalogo.active {
-  flex: 3;
+.razalogo.active {
+  flex: 2.5;
   transition: opacity 0.3s ease-in 0.5s;
 }
 
-.nbalogo.active h3 {
+.razalogo.sizeimg {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  margin: 7px;
+  height: 500px;
+  width: 300px;
+}
+
+.razalogo h2 {
+  bottom: -110px;
+  font-size: 40px;
+  left: 10%;
+  opacity: 0;
+  position: absolute;
+}
+
+.razalogo.active h2 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }

@@ -1,4 +1,4 @@
-const paneles = document.querySelectorAll('.nbalogo');
+const paneles = document.querySelectorAll('.razalogo');
 
 paneles.forEach((panel) => {
     panel.addEventListener('click', () => {

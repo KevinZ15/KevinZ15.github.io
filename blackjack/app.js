@@ -178,7 +178,7 @@ btnSalir.addEventListener('click', () => {
         text: "¿Seguro que desea salir?",
         showCancelButton: true,
         confirmButtonText: `Si`,
-        imageUrl: '/imagenes/TristeIcon.png',
+        imageUrl: '/images/TristeIcon.png',
         imageHeight: 200,
         imageWidth: 250,
         imageAlt: 'Cara Triste'

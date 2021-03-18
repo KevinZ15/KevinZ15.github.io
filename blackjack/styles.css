@@ -16,7 +16,7 @@ header {
 }
 
 body {
-  background-image: url("/imagenes/table-background.jpg");
+  background-image: url("imagenes/mesabackground.jpg");
   background-repeat: no-repeat;
   margin: 0;
 }

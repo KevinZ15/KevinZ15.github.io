@@ -33,7 +33,7 @@ setTimeout(() => {
 
 btnCambiarNombre.addEventListener('click', () =>{
     Swal.fire({
-        title: 'Ingresa tu nombre',
+        title: '¡Ingresa tu nombre!',
         input: 'text',
         inputAttributes: {
           autocapitalize: 'off'

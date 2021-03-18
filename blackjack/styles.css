@@ -1,0 +1,46 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+header {
+  text-align: center;
+  background-color: green;
+  margin: 0;
+}
+
+#blackLine {
+  height: 10px;
+  background-color: black;
+}
+
+body {
+  background-image: url("/imagenes/table-background.jpg");
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+}
+
+.cartaJugador {
+  left: 35px;
+  margin-right: 43px;
+  margin-top: 8px;
+  position: relative;
+  width: 130px;
+}
+
+.jugador {
+  height: 315px;
+}
+
+.cartaPc {
+  left: 35px;
+  margin-right: 43px;
+  position: relative;
+  width: 130px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>BlackJack</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="https://www.dafont.com/forum/attach/orig/1/2/127066.png" alt="Icono de Black Jack">
+    </header>
+    <div id= "blackLine"></div>
+    <main>
+        <div class="text-center mt-2">
+            <button id="btnNuevoJuego" class="btn btn-success" disabled>Iniciar Juego</button>
+            <button id="btnPedirCarta" class="btn btn-primary ml-2" disabled>Pedir Carta</button>
+            <button id="btnDetenerse" class="btn btn-danger ml-2" disabled>Detenerse</button>
+            <button id="btnSalir"class="btn btn-dark ml-2" disabled>Salir</button>
+        </div>
+        <div class="row container">
+            <div class="col">
+                <div class="jugador">
+                    <p><span id="nombreJugador">Jugador</span> - <span id="scoreJugador">0</span> <button id="btnCambiarNombre" class="btn btn-sm btn-info">Cambiar nombre</button></p>
+                    <div id="cartas-Jugador"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col">
+                <div>
+                    <p>PC - <span id="scorePc">0</span></p>
+                    <div id="cartas-Pc"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

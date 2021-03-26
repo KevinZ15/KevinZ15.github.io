@@ -1,0 +1,43 @@
+.circulo {
+  background-color: chartreuse;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  transition: 2s;
+}
+
+.rectangulo {
+  background-color: rosybrown;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  transition: 2s;
+}
+
+.triangulo {
+  background-color: maroon;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  transition: 2s;
+}
+
+.circulo:hover {
+  border-radius: 50%;
+  background-color: darkgreen;
+}
+
+.rectangulo:hover {
+  background-color: red;
+  height: 200px;
+  width: 300px;
+}
+
+.triangulo:hover {
+  width: 0;
+  height: 0;
+  background-color: white;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid blue;
+}

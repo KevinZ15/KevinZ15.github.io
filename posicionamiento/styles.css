@@ -9,32 +9,33 @@ body {
 .h1Format {
   color: white;
   font-family: "Titillium Web", sans-serif;
+  font-size: 50px;
   font-style: oblique;
   margin-bottom: 70px;
 }
 
 .lineImage {
   display: flex;
-  left: 25%;
+  justify-content: center;
   position: relative;
 }
 
 .pictureFormat {
   border-radius: 5%;
   border: 2px solid black;
-  height: 130px;
+  height: 200px;
   margin-bottom: 10px;
   margin-right: 10px;
-  width: 220px;
+  width: 400px;
 }
 
 .h2Format {
   color: white;
   display: inline-flex;
   font-family: "Titillium Web", sans-serif;
-  font-size: small;
+  font-size: 95%;
   height: 50px;
-  margin-left: 5px;
+  margin-left: 15px;
   position: absolute;
-  top: 88px;
+  top: 150px;
 }

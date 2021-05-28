@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(to left, #005AA7, #FFFDE4);
+}
+
+.contenedor{
+    height: 95vh;
+    width: 100%;
+    position: relative;
+}
+
+.contenedor .buscador{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contenedor input {
+    height: 50px;
+    width: 300px;
+    margin: 0 20px;
+    padding: 0 30px;
+    outline: none;
+    background-color: #FFFFFF50;
+    font-size: 20px;
+    border-radius: 50px 25px;
+}
+
+.contenedor h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.contenedor button{
+    height: 50px;
+    width: 100px;
+    margin: 0 20px;
+    padding: 0 20px;
+    outline: none;
+    background-color: #FFFFFF30;
+    font-size: 20px;
+    border-radius: 50px 25px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.iconoClima{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 378px;
+    right: 1545px;
+}
+
+.paisCiudad{
+    position: absolute;
+    font-size: 40px;
+    top: 40%;
+    left: 350px;
+}
+
+.temperatura{
+    position: absolute;
+    font-size: 38px;
+    top: 46%;
+    left: 15%;
+}
+
+.temperatura b{
+    color: darkred;
+}
+
+.descripcion{
+    position: absolute;
+    font-size: 32px;
+    top: 52%;
+    left: 15%;
+}
+
+.list{
+    position: absolute;
+    font-size: 26px;
+    top: 60%;
+    left: 15%;
+}
+
+.list li{
+    margin-bottom: 10px;
+    list-style:none;
+}

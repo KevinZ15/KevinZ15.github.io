@@ -20,7 +20,6 @@ buscar.addEventListener("click", ()=>{
     fetch(url).then(respuesta => {
         return respuesta.json();
     }).then(datos => {
-        console.log(datos);
         let celcius = Math.floor(datos.main.temp - 273.15);
         paisCiudad.innerText = `${datos.name} / ${datos.sys.country}`
         temperatura.innerHTML = `${celcius} °<b>C</>`

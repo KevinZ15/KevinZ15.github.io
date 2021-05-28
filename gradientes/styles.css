@@ -1,0 +1,28 @@
+.contenedor{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size{
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.gradiente1{
+    background: linear-gradient(to left, red, orange);
+}
+
+.gradiente2{
+    background: linear-gradient(to bottom, darkblue, lightblue);
+}
+
+.gradiente3{
+    background: radial-gradient(#004b23, #38b000, 	rgb(204, 255, 51));  
+}
+
+.gradiente4{
+    background: repeating-linear-gradient(-45deg, black,black 5px, white 5px, white 10px);
+}

@@ -11,6 +11,8 @@ let sTermica = document.querySelector('#sTermica');
 let humedad = document.querySelector('#humedad');
 let longitud = document.querySelector('#longitud');
 let latitud = document.querySelector('#latitud');
+let tempMin = document.querySelector('#tempMin');
+let viento = document.querySelector('#viento');
 
 buscar.addEventListener("click", ()=>{
     let llavemia = '074c73cb6e26c8a84f680ff65694f058';
@@ -35,6 +37,9 @@ buscar.addEventListener("click", ()=>{
         humedad.innerText = `Humedad: ${datos.main.humidity}`
         latitud.innerText = `Latitud: ${datos.coord.lat}`
         longitud.innerText = `Longitud: ${datos.coord.lon}`
+        tempMin.innerText = 'Temperatura Minima: '+Math.floor(datos.main.temp_min - 273.15)+'°C';
+        tempMax.innerText = 'Temperatura Maxima: '+Math.floor(datos.main.temp_max - 273.15)+'°C';
+        viento.innerText = `Velocidad Viento: ${datos.wind.speed} km/h`
     })
     pais.value = '';
     ciudad.value = '';

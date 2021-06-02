@@ -1,0 +1,29 @@
+body{
+    margin-top: 38vh;
+    margin-left: 100vh;
+}
+.contenedor{
+    height: 95vh;
+    width: 100%;
+    position: relative;
+}
+
+
+button{
+    display: flex;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 20px;
+    flex-direction: row;
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 20px;
+}
